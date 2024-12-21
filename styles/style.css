@@ -230,8 +230,12 @@
     position: relative; 
   }
   
+  .person__image{
+    max-width: 100%;
+  }
   .events__image {
      max-width: 100%; 
+    
   }
   
   .person {
