@@ -292,3 +292,116 @@
     font-size: 14px;
     margin: 0; 
   }
+  .membership {
+    padding: 100px 0 140px;
+    background-color: #057bf2;
+    color: #ffffff;
+  }
+  
+  .membership__title {
+    max-width: 574px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+  }
+  
+  .membership__steps {
+    list-style-type: none;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+  }
+  
+  .step {
+    flex:1 1 calc(25% - 16px);
+    max-width: 220px;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+  .step__title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+  
+  .step__icon {
+    margin-left: 20px;
+  }
+  
+  .step__description {
+    margin: 10px 0 0;
+  }
+  
+  .footer {
+    box-sizing: border-box;
+    background-color: #333;
+  color: #fff;
+  padding: 60px 80px;
+  font-family: Arial, sans-serif;
+  }
+  
+  .footer__columns {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+  }
+  .footer__column_content_hours{
+    margin-left: auto;
+  }
+
+  
+  .footer__column-heading{
+    font-size: 1.2em;
+  margin: 0 0 15px ;
+  font-weight: bold;
+
+  }
+  
+  .footer__column_content_social {
+   
+  }
+  
+  .footer__logo {
+    height: 80px;
+    width: 58px;
+  }
+  
+  .footer__list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .footer__list-item {
+    margin: 20px 16px auto;
+  }
+  
+
+  .footer__column-link {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .footer__social-icon {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+    margin:10px ;
+  }
+  
+  .footer__copyright {
+    text-align: left;
+    font-size: 0.9em;
+    margin-top: 20px;
+    color: #bbb;
+  }
+  
